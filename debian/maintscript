@@ -1,0 +1,2 @@
+rm_conffile /etc/defoma/hints/ttf-gyre.hints 2.004.1-2
+rm_conffile /etc/texmf/updmap.d/20tex-gyre.cfg 2.004.1-2.1
