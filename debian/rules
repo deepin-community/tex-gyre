@@ -30,6 +30,8 @@ build-indep-stamp:
 	# to the .orig.tar.gz + .diff.gz that this script is not aware of.
 	@newfiles=$$(find . -type f | grep -Ev \
 		-e '^\./.git/' \
+		-e '^\./.github/' \
+		-e '^\./.gitignore' \
 		-e '^\./.pc/' \
 		-e '^\./debian/' \
 		-e '^\./tlpkg/' \
